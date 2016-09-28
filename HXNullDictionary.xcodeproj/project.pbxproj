@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4830FCDE1D9C11E1002687F4 /* NSMutableDictionary+HXNilSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 4830FCDD1D9C11E1002687F4 /* NSMutableDictionary+HXNilSafe.m */; };
+		4830FCE11D9C1253002687F4 /* NSNull+HXNilSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 4830FCE01D9C1253002687F4 /* NSNull+HXNilSafe.m */; };
 		483236451D9C00FF000B224B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 483236441D9C00FF000B224B /* main.m */; };
 		483236481D9C00FF000B224B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 483236471D9C00FF000B224B /* AppDelegate.m */; };
 		4832364B1D9C00FF000B224B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4832364A1D9C00FF000B224B /* ViewController.m */; };
@@ -15,6 +17,8 @@
 		483236531D9C00FF000B224B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 483236511D9C00FF000B224B /* LaunchScreen.storyboard */; };
 		4832365E1D9C00FF000B224B /* HXNullDictionaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4832365D1D9C00FF000B224B /* HXNullDictionaryTests.m */; };
 		483236691D9C00FF000B224B /* HXNullDictionaryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 483236681D9C00FF000B224B /* HXNullDictionaryUITests.m */; };
+		4832367B1D9C02A5000B224B /* NSObject+HXSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 4832367A1D9C02A5000B224B /* NSObject+HXSwizzling.m */; };
+		4832367E1D9C03A2000B224B /* NSDictionary+HXNilSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 4832367D1D9C03A2000B224B /* NSDictionary+HXNilSafe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4830FCDC1D9C11E1002687F4 /* NSMutableDictionary+HXNilSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+HXNilSafe.h"; sourceTree = "<group>"; };
+		4830FCDD1D9C11E1002687F4 /* NSMutableDictionary+HXNilSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+HXNilSafe.m"; sourceTree = "<group>"; };
+		4830FCDF1D9C1253002687F4 /* NSNull+HXNilSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNull+HXNilSafe.h"; sourceTree = "<group>"; };
+		4830FCE01D9C1253002687F4 /* NSNull+HXNilSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNull+HXNilSafe.m"; sourceTree = "<group>"; };
 		483236401D9C00FF000B224B /* HXNullDictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HXNullDictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		483236441D9C00FF000B224B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		483236461D9C00FF000B224B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +59,10 @@
 		483236641D9C00FF000B224B /* HXNullDictionaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HXNullDictionaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		483236681D9C00FF000B224B /* HXNullDictionaryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXNullDictionaryUITests.m; sourceTree = "<group>"; };
 		4832366A1D9C00FF000B224B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		483236791D9C02A5000B224B /* NSObject+HXSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HXSwizzling.h"; sourceTree = "<group>"; };
+		4832367A1D9C02A5000B224B /* NSObject+HXSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HXSwizzling.m"; sourceTree = "<group>"; };
+		4832367C1D9C03A2000B224B /* NSDictionary+HXNilSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+HXNilSafe.h"; sourceTree = "<group>"; };
+		4832367D1D9C03A2000B224B /* NSDictionary+HXNilSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+HXNilSafe.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +117,14 @@
 				483236471D9C00FF000B224B /* AppDelegate.m */,
 				483236491D9C00FF000B224B /* ViewController.h */,
 				4832364A1D9C00FF000B224B /* ViewController.m */,
+				483236791D9C02A5000B224B /* NSObject+HXSwizzling.h */,
+				4832367A1D9C02A5000B224B /* NSObject+HXSwizzling.m */,
+				4832367C1D9C03A2000B224B /* NSDictionary+HXNilSafe.h */,
+				4832367D1D9C03A2000B224B /* NSDictionary+HXNilSafe.m */,
+				4830FCDC1D9C11E1002687F4 /* NSMutableDictionary+HXNilSafe.h */,
+				4830FCDD1D9C11E1002687F4 /* NSMutableDictionary+HXNilSafe.m */,
+				4830FCDF1D9C1253002687F4 /* NSNull+HXNilSafe.h */,
+				4830FCE01D9C1253002687F4 /* NSNull+HXNilSafe.m */,
 				4832364C1D9C00FF000B224B /* Main.storyboard */,
 				4832364F1D9C00FF000B224B /* Assets.xcassets */,
 				483236511D9C00FF000B224B /* LaunchScreen.storyboard */,
@@ -273,7 +293,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4830FCE11D9C1253002687F4 /* NSNull+HXNilSafe.m in Sources */,
+				4830FCDE1D9C11E1002687F4 /* NSMutableDictionary+HXNilSafe.m in Sources */,
 				4832364B1D9C00FF000B224B /* ViewController.m in Sources */,
+				4832367E1D9C03A2000B224B /* NSDictionary+HXNilSafe.m in Sources */,
+				4832367B1D9C02A5000B224B /* NSObject+HXSwizzling.m in Sources */,
 				483236481D9C00FF000B224B /* AppDelegate.m in Sources */,
 				483236451D9C00FF000B224B /* main.m in Sources */,
 			);
@@ -505,6 +529,7 @@
 				4832366F1D9C00FF000B224B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		483236701D9C00FF000B224B /* Build configuration list for PBXNativeTarget "HXNullDictionaryTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +538,7 @@
 				483236721D9C00FF000B224B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		483236731D9C00FF000B224B /* Build configuration list for PBXNativeTarget "HXNullDictionaryUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +547,7 @@
 				483236751D9C00FF000B224B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
