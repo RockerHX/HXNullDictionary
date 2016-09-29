@@ -43,7 +43,7 @@
     id nonNilKey = @"non-nil-key";
     id nonNilVal = @"non-nil-val";
     NSDictionary *dict = @{nonNilKey: nilVal,
-                           nilKey: nonNilVal,};
+                              nilKey: nonNilVal};
     XCTAssertEqualObjects([dict allKeys], @[nonNilKey]);
     XCTAssertNoThrow([dict objectForKey:nonNilKey]);
     id val = dict[nonNilKey];
@@ -85,7 +85,7 @@
     id nonNilKey = @"non-nil-key";
     id nonNilVal = @"non-nil-val";
     NSDictionary *dict = @{nonNilKey: nilVal,
-                           nilKey: nonNilVal,};
+                              nilKey: nonNilVal};
     NSData *data = [NSKeyedArchiver archivedDataWithRootObject:dict];
     NSDictionary *dict2 = [NSKeyedUnarchiver unarchiveObjectWithData:data];
     XCTAssertEqualObjects([dict2 allKeys], @[nonNilKey]);
@@ -98,7 +98,7 @@
     id nonNilKey = @"non-nil-key";
     id nonNilVal = @"non-nil-val";
     NSDictionary *dict = @{nonNilKey: nilVal,
-                           nilKey: nonNilVal,};
+                              nilKey: nonNilVal};
     NSData *data = [NSJSONSerialization dataWithJSONObject:dict options:0 error:NULL];
     NSString *jsonString = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
     NSString *expectedString = @"{\"non-nil-key\":null}";
